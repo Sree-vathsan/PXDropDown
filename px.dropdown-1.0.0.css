@@ -1,0 +1,41 @@
+﻿
+/* PXDropDown Plugin
+ -----------------------------------------------------------------------------------------------------------*/
+.pxDropdown{
+	width:auto;
+	position:relative;
+	margin:0;
+	float:left;
+	}
+	.pxDropdown dt a{
+		display:block;
+		height:29px;
+		line-height:29px;
+		padding:0 8px;
+		}
+		.pxDropdown dt a.value{
+			display:none;
+			}
+		.pxDropdown dd ul{
+			padding:0;
+			margin:0;
+			width:auto;
+			display:block;
+			position:absolute;
+			left:0;
+			list-style:none;
+			}
+			.pxDropdown dd ul li a{
+				display:block;
+				padding:8px;
+				text-decoration:none;
+				}
+				.pxDropdown dd ul li a{
+					color:#434A4C;
+					}
+				.pxDropdown dd ul{
+					display:none;
+					}
+				.pxDropdown dd ul li a .value{
+					display:none;
+					}
